@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<button onclick="MyFunction()" name="button">try it</button>
+<p id="demo"></p>
+
+<script>
+function MyFunction(number) {
+  var greeting;
+  var number=6;
+    if (number < 10) {
+        greeting = "small number";
+    } else if (10< number && number<20) {
+        greeting = "midile number";
+    } else if(number>20){
+        greeting = "big number";
+    }
+document.getElementById("demo").innerHTML =greeting;
+}
+</script>
+
+</body>
+</html>
